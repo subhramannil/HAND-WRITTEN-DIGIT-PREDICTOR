@@ -52,7 +52,7 @@ streamlit run app.py
 ## 📂 Project Structure
 ```text
 ├── app.py                  # Streamlit app
-├── model.py                # CNN model definition and training
+├── training.ipynb.py       # CNN model definition and training
 ├── requirements.txt        # Dependencies
-├── assets/                 # Images, GIFs for README
+├── png                     # screenshots of after taking from user input 
 └── README.md               # Project documentation
