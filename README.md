@@ -34,3 +34,25 @@ Flatten
 Dense → ReLU → Dropout
 ↓
 Dense → Softmax (10 classes)
+```
+
+## 🚀 Installation & Usage
+**Clone the repository**:
+
+git clone https://github.com/subhramannil/handwritten-digit-recognition.git
+cd handwritten-digit-recognition
+**Install dependencies**:
+
+pip install -r requirements.txt
+**Run the Streamlit app**:
+
+streamlit run app.py
+
+## 📂 Project Structure
+
+Edit
+├── app.py                  # Streamlit app
+├── model.py                # CNN model definition and training
+├── requirements.txt        # Dependencies
+├── assets/                 # Images, GIFs for README
+└── README.md               # Project documentation
