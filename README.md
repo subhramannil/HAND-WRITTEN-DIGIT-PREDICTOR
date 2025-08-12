@@ -40,6 +40,7 @@ Dense → Softmax (10 classes)
 **Clone the repository**:
 
 git clone https://github.com/subhramannil/handwritten-digit-recognition.git
+
 cd handwritten-digit-recognition
 **Install dependencies**:
 
@@ -49,8 +50,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## 📂 Project Structure
-
-Edit
+```text
 ├── app.py                  # Streamlit app
 ├── model.py                # CNN model definition and training
 ├── requirements.txt        # Dependencies
